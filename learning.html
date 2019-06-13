@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<script>
+var name = prompt("Введите ваше имя");
+//alert("Hello " + name);
+var age = prompt("Введите ваш возраст");
+var current_year = 2018;
+var birthsYear = current_year - age;
+var fakeYear = birthsYear + 3;
+var result = "Привет, " + name + "! Вы родились в " + birthsYear + " году";
+var tobuy = ["Творог", "Сыр", "Лук"]
+if (name == "Оксана" && age == 31) {
+  var tobuyResult = "И не забудь купить:";
+  for (var i = 0; i < tobuy.length; i++) { 
+    tobuyResult = tobuyResult + tobuy[i]; 
+    if (i != (tobuy.length - 1)) {
+      tobuyResult = tobuyResult + ", ";
+    }
+  }
+  result = "Привет, " + name + "! Вы родились в " + fakeYear + " году. " + tobuyResult;
+}
+alert(result);
+</script>
