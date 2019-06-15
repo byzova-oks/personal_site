@@ -10,7 +10,7 @@
     header .button {font-size: 30px; width: 189px;}
     main h2 {font-size: 61px;}
     main .info {width: 90%}
-    main .about p {font-size: 28px; line-height: 55px;}
+    main .about p {font-size: 40px; line-height: 55px;}
     main .photo {width: 312px;}
     main .contacts {height: 201px; width: 90%;}
     main h5 {font-size: 42px; line-height: 64px;}
@@ -25,7 +25,7 @@
     main .block {width: 576px;}
     main .faculty {font-size: 38px;}
     main .time_learn {font-size: 32px;}
-    footer p {font-size: 18px;}
+    footer p {font-size: 40px;}
     main .education {height: 538px;}
     
    }
