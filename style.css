@@ -277,7 +277,6 @@ main h5 {
 main .organization {
 opacity: 0.8;
 color: #ffffff;
-font-family: Raleway;
 font-weight: 500;
 }
 
@@ -315,7 +314,6 @@ main .education {
 main .faculty {
         opacity: 0.8;
     color: #ffffff;
-    font-family: Raleway;
     font-weight: 500;
 }
 
