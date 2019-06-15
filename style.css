@@ -1,7 +1,7 @@
 @media screen and (max-device-width: 1000px) {
     main .experience {display:none;}
     main .experience_mob {display:block;}
-    main .polosa_mob {height: 94.5%;}
+    main .polosa_mob {height: 96%;}
 }
 @media screen and (max-device-width: 600px) {
     header .infoblock {width: 600px; margin-left: -300px; top: 22%;}
@@ -26,6 +26,7 @@
     footer p {font-size: 40px;}
     main .education {height: 565px;}
     #block6 {top: 226px;}
+    .separate_line {display: none;}
     
    }
 @media screen and (min-device-width: 1000px) {
@@ -54,6 +55,8 @@
     footer p {font-size: 22px;}
     main .education {height: 450px;}
     #block6 {top: 177px;}
+    main .separate_line {width: 100%; height: 1px; background-color: #000000; opacity: 0.1; position:relative; left: 14px;
+}
     
    }
 body {
@@ -291,15 +294,6 @@ main .time {
     text-transform: uppercase;
     margin: 0;
     border: 0;
-}
-
-main .separate_line {
-width: 100%;
-height: 1px;
-background-color: #000000;
-opacity: 0.1;
-position:relative;
-left: 14px;
 }
 
 main .education {
